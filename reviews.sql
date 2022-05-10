@@ -1,4 +1,4 @@
-CREATE TABLE reviews (review_id INTEGER PRIMARY KEY, first_date DATE, last_date DATE, hosts_id INTEGER FOREIGN KEY REFERENCES hosts_entry(hosts_id));
+CREATE TABLE reviews(review_id INTEGER PRIMARY KEY, first_date DATE, last_date DATE, hosts_id INTEGER ,FOREIGN KEY (hosts_id) REFERENCES hosts_entry(hosts_id));
 INSERT INTO reviews VALUES(1,'15-11-2011','26-02-2017',23451) --Example KEEP THE SAME HOSTS ID AS IN THE HOSTS ENTRY TABLE
 INSERT INTO reviews VALUES(,'','',);
 INSERT INTO reviews VALUES(,'','',);
