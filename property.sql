@@ -15,3 +15,26 @@ CREATE TABLE Property(Property_id INTEGER PRIMARY KEY,
 					  FOREIGN KEY (host_id) REFERENCES hosts_entry(host_id),
 					  FOREIGN KEY (review_rating_id) REFERENCES Review_rating(review_rating_id)
 					  )
+					  
+
+INSERT INTO Property VALUES(1,'Condominium','Entire home/apt',6,2,2,4,'Real Bed',1200,295,1,23451,435);
+-------yuvraj---------------
+INSERT INTO Property VALUES(,'','',,,,,'',,,,,);
+INSERT INTO Property VALUES(,'','',,,,,'',,,,,);
+INSERT INTO Property VALUES(,'','',,,,,'',,,,,);
+INSERT INTO Property VALUES(,'','',,,,,'',,,,,);
+INSERT INTO Property VALUES(,'','',,,,,'',,,,,);
+INSERT INTO Property VALUES(,'','',,,,,'',,,,,);
+INSERT INTO Property VALUES(,'','',,,,,'',,,,,);
+INSERT INTO Property VALUES(,'','',,,,,'',,,,,);
+INSERT INTO Property VALUES(,'','',,,,,'',,,,,);
+INSERT INTO Property VALUES(,'','',,,,,'',,,,,);
+INSERT INTO Property VALUES(,'','',,,,,'',,,,,);
+INSERT INTO Property VALUES(,'','',,,,,'',,,,,);
+INSERT INTO Property VALUES(,'','',,,,,'',,,,,);
+INSERT INTO Property VALUES(,'','',,,,,'',,,,,);
+INSERT INTO Property VALUES(,'','',,,,,'',,,,,);
+INSERT INTO Property VALUES(,'','',,,,,'',,,,,);
+--------------sartaaj--------------
+--------------aditi-------------------
+
