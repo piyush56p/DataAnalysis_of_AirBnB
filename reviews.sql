@@ -1,29 +1,6 @@
 CREATE TABLE reviews(review_id INTEGER PRIMARY KEY, first_date DATE, last_date DATE, hosts_id INTEGER ,FOREIGN KEY (hosts_id) REFERENCES hosts_entry(hosts_id));
 INSERT INTO reviews VALUES(1,'15-11-2011','26-02-2017',23451) --Example KEEP THE SAME HOSTS ID AS IN THE HOSTS ENTRY TABLE
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
-INSERT INTO reviews VALUES(,'','',);
+
 ------YUVRAJ---------
 INSERT INTO reviews VALUES(2,'18 Feb 2010','14 Jun 2016',6757);
 INSERT INTO reviews VALUES(3,'21 Feb 2010','07 Jan 2019',2567);
