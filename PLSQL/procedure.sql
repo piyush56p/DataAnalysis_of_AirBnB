@@ -1,4 +1,5 @@
-DECLARE
+CREATE OR REPLACE PROCEDURE print_price_per_person
+    AS
      
      CURSOR S IS SELECT Accommodations
      FROM Property;
