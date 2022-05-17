@@ -16,14 +16,18 @@ BEGIN
         FETCH S INTO ACCO;
         exit WHEN S%NOTFOUND;
         dbms_output.put_line(ACCO);
-    
-    --CLOSE S;
-    END LOOP;
-    LOOP
+        
         FETCH B INTO PRICE;
         exit WHEN B%NOTFOUND;
         dbms_output.put_line(PRICE);
+        
+        C:= PRICE/ACCO;
+        
+        dbms_output.put_line(C);
+    
+    --CLOSE S;
     END LOOP;
+
     --CLOSE B;
     
     
