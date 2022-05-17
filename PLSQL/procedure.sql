@@ -28,8 +28,9 @@ BEGIN
     
     --CLOSE S;
     END LOOP;
+EXCEPTION
+    WHEN ZERO_DIVIDE THEN
+    DBMS_OUTPUT.PUT_LINE('Division by zero');
 
     --CLOSE B;
-    
-    
 END;
